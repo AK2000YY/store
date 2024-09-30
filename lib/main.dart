@@ -27,22 +27,22 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         textTheme: const TextTheme(
-          headlineSmall: TextStyle(
-              fontWeight: FontWeight.bold,
-              fontSize: 20 ,
-              color: AppColor.black
-          ),
-          headlineMedium: TextStyle(
-                fontWeight: FontWeight.bold,
-                fontSize: 26 ,
-                color: AppColor.black
-            ),
-          bodySmall: TextStyle(
-              height: 2,
-              color: AppColor.grey,
-              fontWeight: FontWeight.bold,
-              fontSize: 17
-          )
+          // headlineSmall: TextStyle(
+          //     fontWeight: FontWeight.bold,
+          //     fontSize: 20 ,
+          //     color: AppColor.black
+          // ),
+          // headlineMedium: TextStyle(
+          //       fontWeight: FontWeight.bold,
+          //       fontSize: 26 ,
+          //       color: AppColor.black
+          //   ),
+          // bodySmall: TextStyle(
+          //     height: 2,
+          //     color: AppColor.grey,
+          //     fontWeight: FontWeight.bold,
+          //     fontSize: 17
+          // )
         ),
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,

@@ -18,7 +18,7 @@ class CustomSlider extends GetView<OnBoardingControllerImp> {
         itemBuilder: (context, i) => Column(
           children: [
             Padding(
-              padding: const EdgeInsets.only(top: 30, bottom: 80),
+              padding: const EdgeInsets.only(top: 40, bottom: 80),
               child: Text(
                   onBoardingList[i].title!,
                   style: Theme.of(context).textTheme.headlineSmall
